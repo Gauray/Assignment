@@ -2,12 +2,15 @@
 using namespace std;
 int main()
 {
-   int arr[10], i, sum=0;
-   cout<<"Enter 10 Array Elements: ";
-   for(i=0; i<10; i++)
-      cin>>arr[i];
-   for(i=0; i<10; i++)
-      sum = sum+arr[i];
+   int n, i, sum=0;
+   cout<<"input size of array";
+   cin>>n;
+   int arr[n];
+   cout<<"Input elements of array:";
+   for(i=0; i<n; i++)
+   cin>>arr[i];
+   for(i=0; i<n; i++)
+   sum = sum+arr[i];
    cout<<"\nSum of all array elements = "<<sum;
    cout<<endl;
    return 0;
