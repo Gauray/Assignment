@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int n, i;
+   cout<<"input size of array";
+   cin>>n;
+   int arr[n];
+   int brr[n],sum[n];
+   cout<<"Input elements of 1st array:";
+   for(i=0; i<n; i++)
+   cin>>arr[i];
+   cout<<"Input elements of 2nd array:";
+   for(i=0; i<n; i++)
+   cin>>brr[i];
+   for(i=0; i<n; i++)
+   sum[i] = arr[i]+brr[i];
+   cout<<"\nSum of all array elements = ";
+   for(i=0; i<n; i++)
+   cout<<sum[i];
+   return 0;
+}
